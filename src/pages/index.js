@@ -1,3 +1,4 @@
-import React from "react"
+import React from "react";
+import Inicio from "../components/inicio/Inicio"
 
-export default () => <div>Hello world!</div>
+export default () => <div><Inicio /></div>
