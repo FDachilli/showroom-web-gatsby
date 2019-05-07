@@ -6,13 +6,16 @@ class ImagesCarousel extends Component {
 
   render() {
     return (
-      <Carousel style={{height: '500px'}}>
-        <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide1"/>
-        <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide2"/>
-        <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide3"/>
-        <img src="https://www.cariverplate.com.ar/imagenes/contenidos/2019-04/14774-golesriverpalestino.jpg"/>
-        <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide5"/>
-        <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide6"/>
+      <Carousel autoplay={true} 
+                withoutControls={true}  
+                wrapAround={true} 
+                heightMode="first">
+        <img style={{ width: '100%',
+                      height: '500px',
+                      objectFit: 'cover'}} src={require('./../../images/slide1.jpg')}/>
+        <img style={{ width: '100%',
+                      height: '500px',
+                      objectFit: 'cover'}} src={require('./../../images/slide2.jpg')}/>
       </Carousel>
     );
   }

@@ -6,8 +6,9 @@ class Inicio extends Component {
   render() {
       return (
           <div className="Inicio">
-              <div style={{backgroundColor:'#f7ded6', height:'100px' }}>
-
+              <div style={{backgroundColor:'white', height:'100px', textAlign:'center' }}>
+                    <img src={require('./../../images/corona1.png')} style={{ width: '100px',
+                      height: '100px'}}></img>
               </div>
 
               <ImagesCarousel></ImagesCarousel>
