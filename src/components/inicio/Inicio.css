@@ -1,3 +1,9 @@
 .Inicio {
   text-align: center;
 }
+
+.header {
+  background: url(./../../images/header.jpg) no-repeat center center;
+  height: 100px; 
+  text-align: center
+}

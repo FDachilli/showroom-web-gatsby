@@ -12,10 +12,13 @@ class ImagesCarousel extends Component {
                 heightMode="first">
         <img style={{ width: '100%',
                       height: '500px',
-                      objectFit: 'cover'}} src={require('./../../images/slide1.jpg')}/>
+                      objectFit: 'cover'}} src={require('./../../images/slide2.jpg')}/>
         <img style={{ width: '100%',
                       height: '500px',
-                      objectFit: 'cover'}} src={require('./../../images/slide2.jpg')}/>
+                      objectFit: 'cover'}} src={require('./../../images/slide3.jpg')}/>
+        <img style={{ width: '100%',
+                      height: '500px',
+                      objectFit: 'cover'}} src={require('./../../images/slide4.jpg')}/>
       </Carousel>
     );
   }
