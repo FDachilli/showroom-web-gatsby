@@ -1,0 +1,25 @@
+.Header {
+    height: 70px; 
+    background: url(../../images/header.jpg) no-repeat center fixed; 
+}
+
+a {
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+    line-height: 75px
+}
+
+.right-options{
+    margin-left: 5%;
+}
+  
+.left-options{
+    margin-right: 5%
+}
+
+#logo {
+    width: 250px;
+    height: 30px;
+    margin-top:1%
+}

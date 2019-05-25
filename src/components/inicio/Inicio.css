@@ -2,8 +2,13 @@
   text-align: center;
 }
 
-.header {
-  background: url(./../../images/header.jpg) no-repeat center center;
-  height: 100px; 
-  text-align: center
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.sticky + .content {
+  padding-top: 70px;
 }
