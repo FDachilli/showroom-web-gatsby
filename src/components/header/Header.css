@@ -10,12 +10,8 @@ a {
     line-height: 75px
 }
 
-.right-options{
-    margin-left: 5%;
-}
-  
-.left-options{
-    margin-right: 5%
+span {
+    margin: 4%;
 }
 
 #logo {

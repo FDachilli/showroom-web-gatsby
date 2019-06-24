@@ -1,0 +1,9 @@
+.link .link-image {
+    visibility: hidden;
+}
+
+.link:hover .link-image {
+    visibility: visible;
+    margin-left: 14px; /*TODO see margin*/
+    width: 1.2%;
+}

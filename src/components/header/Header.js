@@ -1,18 +1,30 @@
 import React, { Component } from 'react';
 import './Header.css';
+import Link from '../header/link/Link'
 
 class Header extends Component {
   render() {
-      return (
-          <div className="Header">
-            <a className="left-options">¿Quiénes somos?</a>
-            <a className="left-options">Contacto</a>
-            <a><img id="logo" src={require('./../../images/nombre-largo.png')} ></img>
-            </a>
-            <a className="right-options">Puntos de venta</a>
-            <a className="right-options">SALE</a>
-          </div>
-      );
+    return (
+      <div className="Header">
+        <span>
+            <Link value={'¿Quiénes somos?'}/>
+        </span>
+        <span>
+          <Link value={'Contacto'}/>
+        </span>
+        <span>
+          <a>
+            <img id="logo" src={require('./../../images/nombre-largo.png')} ></img>
+          </a>
+        </span>
+        <span>
+            <Link value={'Puntos de venta'}/>
+        </span>
+        <span>
+            <Link value={'SALE'}/>
+        </span>
+      </div>
+    );
   }
 }
 
