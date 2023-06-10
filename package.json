@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "gatsby": "^2.4.2",
+    "gatsby": "^4.25.7",
     "nuka-carousel": "^4.5.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
